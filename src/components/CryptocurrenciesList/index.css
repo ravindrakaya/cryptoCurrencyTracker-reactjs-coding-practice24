@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.app-container {
+  background-color: #000000;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  color: #00e7ff;
+}
+.crypto-currency-img {
+  width: 500px;
+  height: 250px;
+}
+.crypto-currency-item-container {
+  border: 2px solid #00e7ff;
+  border-radius: 5px;
+  height: 50vh;
+  width: 80vw;
+  margin-bottom: 0px;
+}
+.list-heading-container {
+  color: #00e7ff;
+  background-color: #092e33;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.crypto-text-container {
+  display: flex;
+  align-items: center;
+}
+.currency {
+  color: #ffffff;
+  margin-right: 100px;
+}
+.currency-list-container {
+  list-style-type: none;
+}
+.loader-bg {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
